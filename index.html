@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Weather Forecast</h1>
+
+
+        <div class="search-box">
+
+            <select id="citySelect">
+                <option value="">Select City</option>
+                <option value="Baku">Baku</option>
+                <option value="Istanbul">Istanbul</option>
+                <option value="London">London</option>
+                <option value="Madrid">Madrid</option>
+            </select>
+
+
+            <button id="getWeather">
+                Get Weather
+            </button>
+
+        </div>
+
+
+        <div id="loading">
+            Loading...
+        </div>
+
+
+        <div id="error">
+
+        </div>
+
+        <h2 id="cityName"></h2>
+
+        <div id="weatherResult">
+
+        </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
