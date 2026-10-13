@@ -36,7 +36,24 @@ const cities = {
     Madrid: {
         latitude: 40.4168,
         longitude: -3.7038
-    }
+    },
+
+    Cebrayil: {
+        latitude: 39.9056,
+        longitude: 47.0628
+    },
+
+    Agdam: {
+        latitude: 39.9914,
+        longitude: 46.9306
+    },
+
+    Ankara: {
+        latitude: 39.9334,
+        longitude: 32.8597
+    },
+
+
 
 };
 
@@ -119,6 +136,7 @@ function getWeather(city) {
     $.ajax({
 
         url: apiUrl,
+        
 
         method: "GET",
 
